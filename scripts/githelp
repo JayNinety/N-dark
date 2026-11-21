@@ -1,0 +1,17 @@
+printf "\033[38;2;152;195;121m#Start:
+Change into youre repo's directory, log-in:
+cd /path/to/your/project-repo
+git remote set-url origin <url+token+repo-url/user/reponame>
+
+e.g: git remote set-url origin https://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@github.com/JayNinety/cwave
+
+
+#Management:
+git status = see status of your repo, commited/untracked files.
+
+git add <file> = include what will be commited.
+
+git commit = commit the files, use (-m "comment") to add a comment to the commit.
+
+git push origin = push the commit to the specific branch (main/master/any)
+"
