@@ -1,0 +1,2 @@
+#Run YouTube with Leanback TV interface with any browser:
+MESA_LOADER_DRIVER_OVERRIDE=crocus brave --disable-features=OutdatedBuildDetector --user-agent="Mozilla/5.0 (PS4; Leanback Shell) Cobalt/19.lts.0-qa; compatible;" --app="https://www.youtube.com/tv#/" --start-fullscreen
